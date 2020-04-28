@@ -20,7 +20,7 @@ Four discrete actions are available, corresponding to:
 
 ### Implementation
 **The framework**  
-As part of the project requirements I have used [Pytorch](https://pytorch.org/) framework.  
+As part of the project requirements I have used [Pytorch](https://pytorch.org/) framework to build and train the network.  
 
 **The Algorithm**  
 I have used the [**Double DQN with proportional prioritization**](https://arxiv.org/pdf/1511.05952.pdf) algorithm  
@@ -46,4 +46,8 @@ UPDATE_EVERY |  4  |  how often to update the network
 I have challenged myself and have increased the “DONE” criterion from +13 to +16.
 The training has been completed within  735 epochs.
 
-The below video compares the performance of the agent before training (random movements) and after training (movements oriented on yellow bananas )
+The below video compares the performance of the agent before training (random movements) and after training (movements oriented on yellow bananas )   
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=hrpHLvdqz5g
+" target="_blank"><img src="http://img.youtube.com/vi/hrpHLvdqz5g/0.jpg" 
+alt="Double DQN with proportional prioritization" width="240" height="180" border="10" /></a>
